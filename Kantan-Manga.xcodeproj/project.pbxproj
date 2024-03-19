@@ -26,7 +26,6 @@
 		321C69A22562FA4E00296A1F /* JapaneseUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321C69A12562FA4E00296A1F /* JapaneseUtilsTests.swift */; };
 		3229B1C62541D60B00C4E166 /* KanjiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3229B1C32541D60B00C4E166 /* KanjiCollectionViewCell.swift */; };
 		3229B1C82541D60B00C4E166 /* KanjiCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3229B1C42541D60B00C4E166 /* KanjiCollectionViewCell.xib */; };
-		322C04B725680FE700BD5A51 /* Tesseract+PageSegmentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322C04B525680FE700BD5A51 /* Tesseract+PageSegmentation.swift */; };
 		322C5B602483125A00C0BAB1 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322C5B5F2483125A00C0BAB1 /* Coordinator.swift */; };
 		322E600A255AE00D00D18266 /* CoreDataManagerIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322E5FCC255ADE7C00D18266 /* CoreDataManagerIntegrationTests.swift */; };
 		322E603B255AE03600D18266 /* InMemoryCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328F62A1255A03A7000CA225 /* InMemoryCoreDataManager.swift */; };
@@ -83,7 +82,6 @@
 		3250E8A1256D568100CBFA37 /* TestableViewMangaCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3250E8A0256D568100CBFA37 /* TestableViewMangaCoordinator.swift */; };
 		325199B42479D96400DA6908 /* ImageOCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325199B32479D96400DA6908 /* ImageOCR.swift */; };
 		325199BB2479DE0D00DA6908 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 325199B92479DE0D00DA6908 /* tessdata */; };
-		325199C42479E20700DA6908 /* TesseractOCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325199C32479E20700DA6908 /* TesseractOCR.swift */; };
 		325199CA2479E9B900DA6908 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 325199B92479DE0D00DA6908 /* tessdata */; };
 		32537156253B843E005B8EC1 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32537155253B843E005B8EC1 /* UIView+Extension.swift */; };
 		32542B7F2580248200ED357A /* KanjiRadicalRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32542B7E2580248200ED357A /* KanjiRadicalRelation.swift */; };
@@ -262,6 +260,7 @@
 		84A83221221D9F7000CEE1C9 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A83220221D9F7000CEE1C9 /* CoreDataManager.swift */; };
 		84A83224221DB10400CEE1C9 /* MangaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A83222221DB10400CEE1C9 /* MangaCollectionViewCell.swift */; };
 		84A83225221DB10400CEE1C9 /* MangaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A83223221DB10400CEE1C9 /* MangaCollectionViewCell.xib */; };
+		C1CC561F2BA9E68E00F000D4 /* VisionOCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CC561E2BA9E68E00F000D4 /* VisionOCR.swift */; };
 		C6DBA723BD4E75B611019070 /* Pods_Kantan_Keyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0381BC06F64C28E2548150 /* Pods_Kantan_Keyboard.framework */; };
 		D97B4BA852CAF1F821F99163 /* Pods_Kantan_MangaIntegrationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23E96365E0E708B48A68879 /* Pods_Kantan_MangaIntegrationTests.framework */; };
 /* End PBXBuildFile section */
@@ -343,7 +342,6 @@
 		321C69A12562FA4E00296A1F /* JapaneseUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapaneseUtilsTests.swift; sourceTree = "<group>"; };
 		3229B1C32541D60B00C4E166 /* KanjiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiCollectionViewCell.swift; sourceTree = "<group>"; };
 		3229B1C42541D60B00C4E166 /* KanjiCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KanjiCollectionViewCell.xib; sourceTree = "<group>"; };
-		322C04B525680FE700BD5A51 /* Tesseract+PageSegmentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tesseract+PageSegmentation.swift"; sourceTree = "<group>"; };
 		322C5B5B24830C2500C0BAB1 /* FakeLibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeLibraryViewController.swift; sourceTree = "<group>"; };
 		322C5B5F2483125A00C0BAB1 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		322E5FCC255ADE7C00D18266 /* CoreDataManagerIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManagerIntegrationTests.swift; sourceTree = "<group>"; };
@@ -401,7 +399,6 @@
 		3250E8A0256D568100CBFA37 /* TestableViewMangaCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestableViewMangaCoordinator.swift; sourceTree = "<group>"; };
 		325199B32479D96400DA6908 /* ImageOCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOCR.swift; sourceTree = "<group>"; };
 		325199B92479DE0D00DA6908 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
-		325199C32479E20700DA6908 /* TesseractOCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesseractOCR.swift; sourceTree = "<group>"; };
 		32537155253B843E005B8EC1 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		32542B7E2580248200ED357A /* KanjiRadicalRelation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiRadicalRelation.swift; sourceTree = "<group>"; };
 		32542B842580292A00ED357A /* DicKanji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicKanji.swift; sourceTree = "<group>"; };
@@ -589,6 +586,7 @@
 		B23E96365E0E708B48A68879 /* Pods_Kantan_MangaIntegrationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kantan_MangaIntegrationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64B738A331ECD90A6AF26D9 /* Pods-Kantan-MangaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kantan-MangaTests.debug.xcconfig"; path = "Target Support Files/Pods-Kantan-MangaTests/Pods-Kantan-MangaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BC1796CD2E87EE4D5C4E8109 /* Pods_Kantan_MangaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kantan_MangaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1CC561E2BA9E68E00F000D4 /* VisionOCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionOCR.swift; sourceTree = "<group>"; };
 		DEFFF0308E09799CE28D8C6B /* Pods-Kantan-MangaIntegrationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kantan-MangaIntegrationTests.release.xcconfig"; path = "Target Support Files/Pods-Kantan-MangaIntegrationTests/Pods-Kantan-MangaIntegrationTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -799,8 +797,7 @@
 			isa = PBXGroup;
 			children = (
 				325199B32479D96400DA6908 /* ImageOCR.swift */,
-				325199C32479E20700DA6908 /* TesseractOCR.swift */,
-				322C04B525680FE700BD5A51 /* Tesseract+PageSegmentation.swift */,
+				C1CC561E2BA9E68E00F000D4 /* VisionOCR.swift */,
 			);
 			path = OCR;
 			sourceTree = "<group>";
@@ -1729,7 +1726,6 @@
 				843FA7E9221DFE9E00B86B52 /* CBZReader.swift in Sources */,
 				32542BEF25803CDC00ED357A /* DBMigrator.swift in Sources */,
 				329E45A225E2C552000B0FAE /* SentencesCoordinator.swift in Sources */,
-				322C04B725680FE700BD5A51 /* Tesseract+PageSegmentation.swift in Sources */,
 				8418696E222495FE00C689DC /* Manga+CoreDataProperties.swift in Sources */,
 				3249F2D7250BBC18004C514E /* MangaCollectionCollectionViewCell.swift in Sources */,
 				3297E3CC25E1A18900743C8B /* IndexPathButton.swift in Sources */,
@@ -1758,6 +1754,7 @@
 				3241F8602572AE7F00A4FC04 /* TermEntry.swift in Sources */,
 				32EC1AC326F68BE90059F143 /* AnkiConnectResponse.swift in Sources */,
 				328DFB0A238D96300095CBAB /* MangaViewController.swift in Sources */,
+				C1CC561F2BA9E68E00F000D4 /* VisionOCR.swift in Sources */,
 				3241F8B12572E10C00A4FC04 /* KanjiEntryV1.swift in Sources */,
 				84A8321D221D951500CEE1C9 /* LibraryViewController.swift in Sources */,
 				326FDE7B24A7FBFB0042CB8A /* SettingsCoordinator.swift in Sources */,
@@ -1813,7 +1810,6 @@
 				329D418F25B49EC800545FB0 /* DatabaseUtils.swift in Sources */,
 				32F7746725B63F590058D80F /* TermMetaSearchResult.swift in Sources */,
 				84A831EF221D90CA00CEE1C9 /* MangaReader.xcdatamodeld in Sources */,
-				325199C42479E20700DA6908 /* TesseractOCR.swift in Sources */,
 				325CFC21248060AD00110F31 /* DictionaryTermEntryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

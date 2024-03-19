@@ -19,7 +19,6 @@ struct AcknowledgmentsView: View {
                 ZIPFoundation
                 GCDWebServer/WebUploader
                 GRDB
-                SwiftTesseract
                 UnrarKit
                 MeCab - Nara Institute of Science and Technology / Taku Kudou
                 """)
