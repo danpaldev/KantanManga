@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Firebase
+
 
 protocol ViewMangaCoordinatorDelegate: AnyObject {
     func didEnd(_ viewMangaCoordinator: ViewMangaCoordinator)
