@@ -51,6 +51,7 @@ class VisionOCR: ImageOCR {
             }
 
             let recognizedStrings = observations.compactMap { observation in
+                print(observation)
                 return observation.topCandidates(1).first?.string
             }.joined(separator: "\n")
 
@@ -59,7 +60,7 @@ class VisionOCR: ImageOCR {
 
         request.recognitionLevel = .accurate
         request.usesLanguageCorrection = true
-        request.recognitionLanguages = ["ja", "en"]
+        request.recognitionLanguages = ["ja"]
 
         do {
             try requestHandler.perform([request])

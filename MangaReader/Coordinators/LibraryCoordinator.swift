@@ -113,7 +113,7 @@ extension LibraryCoordinator: LibraryViewControllerDelegate {
 // MARK: CollectionViewControllerDelegate
 extension LibraryCoordinator: CollectionViewControllerDelegate {
     func didSelectManga(_ collectionViewController: CollectionViewController, manga: Manga, cellFrame: CGRect) {
-        let viewMangaCoordinator = ViewMangaCoordinator(navigation: navigation, coreDataManager: coreDataManager, manga: manga, delegate: self, originFrame: cellFrame, ocr: VisionOCR())
+        let viewMangaCoordinator = ViewMangaCoordinator(navigation: navigation, coreDataManager: coreDataManager, manga: manga, delegate: self, originFrame: cellFrame, ocr: GoogleVisionOCR())
         childCoordinators.append(viewMangaCoordinator)
         viewMangaCoordinator.start()
     }

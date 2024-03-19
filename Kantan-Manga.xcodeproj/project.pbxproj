@@ -80,8 +80,6 @@
 		3250E89B256D54E000CBFA37 /* FakeViewerSettingsViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3250E89A256D54E000CBFA37 /* FakeViewerSettingsViewControllerDelegate.swift */; };
 		3250E8A1256D568100CBFA37 /* TestableViewMangaCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3250E8A0256D568100CBFA37 /* TestableViewMangaCoordinator.swift */; };
 		325199B42479D96400DA6908 /* ImageOCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325199B32479D96400DA6908 /* ImageOCR.swift */; };
-		325199BB2479DE0D00DA6908 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 325199B92479DE0D00DA6908 /* tessdata */; };
-		325199CA2479E9B900DA6908 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 325199B92479DE0D00DA6908 /* tessdata */; };
 		32537156253B843E005B8EC1 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32537155253B843E005B8EC1 /* UIView+Extension.swift */; };
 		32542B7F2580248200ED357A /* KanjiRadicalRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32542B7E2580248200ED357A /* KanjiRadicalRelation.swift */; };
 		32542B852580292A00ED357A /* DicKanji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32542B842580292A00ED357A /* DicKanji.swift */; };
@@ -260,6 +258,7 @@
 		84A83224221DB10400CEE1C9 /* MangaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A83222221DB10400CEE1C9 /* MangaCollectionViewCell.swift */; };
 		84A83225221DB10400CEE1C9 /* MangaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A83223221DB10400CEE1C9 /* MangaCollectionViewCell.xib */; };
 		C1CC561F2BA9E68E00F000D4 /* VisionOCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CC561E2BA9E68E00F000D4 /* VisionOCR.swift */; };
+		C1CC56222BAA447E00F000D4 /* GoogleVisionOCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CC56212BAA447E00F000D4 /* GoogleVisionOCR.swift */; };
 		C6DBA723BD4E75B611019070 /* Pods_Kantan_Keyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0381BC06F64C28E2548150 /* Pods_Kantan_Keyboard.framework */; };
 		D97B4BA852CAF1F821F99163 /* Pods_Kantan_MangaIntegrationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23E96365E0E708B48A68879 /* Pods_Kantan_MangaIntegrationTests.framework */; };
 /* End PBXBuildFile section */
@@ -397,7 +396,6 @@
 		3250E89A256D54E000CBFA37 /* FakeViewerSettingsViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeViewerSettingsViewControllerDelegate.swift; sourceTree = "<group>"; };
 		3250E8A0256D568100CBFA37 /* TestableViewMangaCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestableViewMangaCoordinator.swift; sourceTree = "<group>"; };
 		325199B32479D96400DA6908 /* ImageOCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOCR.swift; sourceTree = "<group>"; };
-		325199B92479DE0D00DA6908 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
 		32537155253B843E005B8EC1 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		32542B7E2580248200ED357A /* KanjiRadicalRelation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiRadicalRelation.swift; sourceTree = "<group>"; };
 		32542B842580292A00ED357A /* DicKanji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicKanji.swift; sourceTree = "<group>"; };
@@ -586,6 +584,7 @@
 		B64B738A331ECD90A6AF26D9 /* Pods-Kantan-MangaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kantan-MangaTests.debug.xcconfig"; path = "Target Support Files/Pods-Kantan-MangaTests/Pods-Kantan-MangaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BC1796CD2E87EE4D5C4E8109 /* Pods_Kantan_MangaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kantan_MangaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1CC561E2BA9E68E00F000D4 /* VisionOCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionOCR.swift; sourceTree = "<group>"; };
+		C1CC56212BAA447E00F000D4 /* GoogleVisionOCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleVisionOCR.swift; sourceTree = "<group>"; };
 		DEFFF0308E09799CE28D8C6B /* Pods-Kantan-MangaIntegrationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kantan-MangaIntegrationTests.release.xcconfig"; path = "Target Support Files/Pods-Kantan-MangaIntegrationTests/Pods-Kantan-MangaIntegrationTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -796,6 +795,7 @@
 			children = (
 				325199B32479D96400DA6908 /* ImageOCR.swift */,
 				C1CC561E2BA9E68E00F000D4 /* VisionOCR.swift */,
+				C1CC56212BAA447E00F000D4 /* GoogleVisionOCR.swift */,
 			);
 			path = OCR;
 			sourceTree = "<group>";
@@ -1142,7 +1142,6 @@
 			isa = PBXGroup;
 			children = (
 				32326F8C243566FD00FCE8E5 /* cbz.png */,
-				325199B92479DE0D00DA6908 /* tessdata */,
 				84A831E5221D90CA00CEE1C9 /* MangaReader */,
 				326280D5253DD29F0070F5DA /* Kantan-Keyboard */,
 				84A831FD221D90CC00CEE1C9 /* MangaReaderTests */,
@@ -1480,7 +1479,6 @@
 				324BB99624983DF7006241E8 /* unk.dic in Resources */,
 				324BB99524983DF7006241E8 /* matrix.bin in Resources */,
 				324BB99A24983DF7006241E8 /* char.bin in Resources */,
-				325199BB2479DE0D00DA6908 /* tessdata in Resources */,
 				32EC1ACC26F69E870059F143 /* AnkiConnectionViewController.xib in Resources */,
 				3290ECBB25C3710E00D4DE96 /* FAQViewController.xib in Resources */,
 				3239C5B9254DD06500EFB39A /* Settings.bundle in Resources */,
@@ -1501,7 +1499,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				325199CA2479E9B900DA6908 /* tessdata in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1774,6 +1771,7 @@
 				3238DF3A24D7840200DE8782 /* WordButton.swift in Sources */,
 				3241F8972572C18900A4FC04 /* TermEntryV1.swift in Sources */,
 				322ECF3924FF280B0013FD21 /* Bool+Extension.swift in Sources */,
+				C1CC56222BAA447E00F000D4 /* GoogleVisionOCR.swift in Sources */,
 				3241F8572572ACD800A4FC04 /* KanjiEntry.swift in Sources */,
 				32B518F825C595B00098ABA0 /* GlossaryItem.swift in Sources */,
 				326344A5247DDAF800F683AB /* CBRReader.swift in Sources */,
@@ -1900,7 +1898,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 25JHVANVX3;
+				DEVELOPMENT_TEAM = 7J996B9RGQ;
 				INFOPLIST_FILE = "Kantan-MangaIntegrationTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1922,7 +1920,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 25JHVANVX3;
+				DEVELOPMENT_TEAM = 7J996B9RGQ;
 				INFOPLIST_FILE = "Kantan-MangaIntegrationTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1945,7 +1943,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 79;
-				DEVELOPMENT_TEAM = 25JHVANVX3;
+				DEVELOPMENT_TEAM = 7J996B9RGQ;
 				INFOPLIST_FILE = "Kantan-Keyboard/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1954,7 +1952,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kantanmanga.Kantan-Keyboard";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoimanga.Kantan-Keyboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -1970,7 +1968,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 79;
-				DEVELOPMENT_TEAM = 25JHVANVX3;
+				DEVELOPMENT_TEAM = 7J996B9RGQ;
 				INFOPLIST_FILE = "Kantan-Keyboard/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1979,7 +1977,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kantanmanga.Kantan-Keyboard";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoimanga.Kantan-Keyboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -2160,7 +2158,7 @@
 					"-framework",
 					"\"ZIPFoundation\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kantanmanga;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoimanga;
 				PRODUCT_NAME = "Kantan Manga";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "MangaReader-Bridging-Header.h";
@@ -2224,7 +2222,7 @@
 					"-framework",
 					"\"ZIPFoundation\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kantanmanga;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoimanga;
 				PRODUCT_NAME = "Kantan Manga";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "MangaReader-Bridging-Header.h";
@@ -2240,7 +2238,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 25JHVANVX3;
+				DEVELOPMENT_TEAM = 7J996B9RGQ;
 				INFOPLIST_FILE = MangaReaderTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2262,7 +2260,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 25JHVANVX3;
+				DEVELOPMENT_TEAM = 7J996B9RGQ;
 				INFOPLIST_FILE = MangaReaderTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
