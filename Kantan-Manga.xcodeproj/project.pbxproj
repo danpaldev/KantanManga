@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0D9DCB3F2814B556003B0E3A /* LocalNetworkAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9DCB3E2814B556003B0E3A /* LocalNetworkAuthorization.swift */; };
-		0DD370062815F42B00B6279D /* SwiftyTesseract in Frameworks */ = {isa = PBXBuildFile; productRef = 0DD370052815F42B00B6279D /* SwiftyTesseract */; };
 		320ED4D32483178C00F5BECF /* FakeLibraryViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320ED4D22483178C00F5BECF /* FakeLibraryViewControllerDelegate.swift */; };
 		320ED4D72483189F00F5BECF /* FakeNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320ED4D62483189F00F5BECF /* FakeNavigation.swift */; };
 		320ED4D924831D2900F5BECF /* FakeUploadServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320ED4D824831D2900F5BECF /* FakeUploadServer.swift */; };
@@ -613,7 +612,6 @@
 			files = (
 				3297E40A25E1DB0100743C8B /* CropViewController in Frameworks */,
 				324BB96E2498369B006241E8 /* mecab.framework in Frameworks */,
-				0DD370062815F42B00B6279D /* SwiftyTesseract in Frameworks */,
 				695F56608B621A2A6A42BBC8 /* Pods_Kantan_Manga.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1330,7 +1328,6 @@
 				8418695E222346F000C689DC /* ShellScript */,
 				324BB9702498369B006241E8 /* Embed Frameworks */,
 				326280DC253DD29F0070F5DA /* Embed App Extensions */,
-				32B6F4BF25D2E7C400988FCF /* ShellScript */,
 				4069C76A413330D5F3E27DC8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -1341,7 +1338,6 @@
 			name = "Kantan-Manga";
 			packageProductDependencies = (
 				3297E40925E1DB0100743C8B /* CropViewController */,
-				0DD370052815F42B00B6279D /* SwiftyTesseract */,
 			);
 			productName = MangaReader;
 			productReference = 84A831E3221D90CA00CEE1C9 /* Kantan Manga.app */;
@@ -1513,23 +1509,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		32B6F4BF25D2E7C400988FCF /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "rm -rf \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Frameworks/libtesseract.framework\"\n";
-		};
 		4069C76A413330D5F3E27DC8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2138,7 +2117,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 86;
-				DEVELOPMENT_TEAM = 25JHVANVX3;
+				DEVELOPMENT_TEAM = 7J996B9RGQ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MangaReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2202,7 +2181,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 86;
-				DEVELOPMENT_TEAM = 25JHVANVX3;
+				DEVELOPMENT_TEAM = 7J996B9RGQ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MangaReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2369,11 +2348,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		0DD370052815F42B00B6279D /* SwiftyTesseract */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 0DD370042815F42B00B6279D /* XCRemoteSwiftPackageReference "SwiftyTesseract" */;
-			productName = SwiftyTesseract;
-		};
 		3297E40925E1DB0100743C8B /* CropViewController */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3297E40825E1DB0100743C8B /* XCRemoteSwiftPackageReference "TOCropViewController" */;
